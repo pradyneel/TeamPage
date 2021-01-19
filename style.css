@@ -1,0 +1,744 @@
+*,html,body
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+div
+{
+    font-family: PT serif;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+h1
+{
+    position: absolute;
+    left: 243px;
+    top: 110px;
+    width: 330px;
+    height: 47px;
+
+    font-family: PT serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+img{
+    width: 240px;
+    height: 341px;
+    margin-bottom: 0;
+}
+
+img:hover{
+    opacity: 85%;
+}
+
+.info
+{
+    top: 110px;
+    left: 736px;
+    position: absolute;
+    height: 27px;
+    width: 439px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.person1
+{
+    position: absolute;
+    width: 238px;
+    height: 341px;
+    left: 240px;
+    top: 330px;
+    display: inline;
+}
+
+.person1 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.person2
+{
+    position: absolute;
+    width: 237px;
+    height: 341px;
+    left: 241px;
+    top: 845px;
+}
+
+.person2 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.person3
+{
+    position: absolute;
+    width: 238px;
+    height: 347px;
+    left: 571px;
+    top: 429px;
+}
+
+.person3 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+
+.person4
+{
+    position: absolute;
+    width: 238px;
+    height: 347px;
+    left: 571px;
+    top: 944px;
+}
+
+.person4 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+.person5
+{
+    position: absolute;
+    width: 238px;
+    height: 341px;
+    left: 901px;
+    top: 330px;
+}
+
+.person5 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.person6
+{
+    position: absolute;
+    width: 237px;
+    height: 341px;
+    left: 902px;
+    top: 845px;
+}
+
+.person6 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 255px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    top: 1400px;
+    color: gray;
+}
+
+
+
+
+/* Meadia Queries */
+
+@media all
+{
+    p{
+        font-family: Poppins;
+        font-size: 18px;
+    }
+
+    img{
+        margin-bottom: 0px;
+        width: 240px;
+        height: 330px;
+    }
+
+    img:hover
+    {
+        opacity: 85%;
+    }
+    h1 {
+        position: absolute;
+        width: 330px;
+        height: 47px;
+        left: 243px;
+        top: 60px;
+    
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+    }
+    
+    .info {
+        position: absolute;
+        width: 439px;
+        height: 27px;
+        left: 760px;
+        top: 60px;
+    
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    
+    .person1 {
+        position: absolute;
+        width: 242px;
+        height: 426.5px;
+        left: 241px;
+        top: 244.5px;
+        display: inline;
+    }
+    .person1 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 130px;
+        bottom: 244px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 13px;
+        color: #000000;
+    }
+    
+    .person2 {
+        
+        position: absolute;
+        width: 305.21px;
+        height: 471px;
+        left: 550.64px;
+        top: 396px;
+    }
+    
+    .person2 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 99px;
+        bottom: 211px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    .person3 {
+        
+        position: absolute;
+        width: 300.81px;
+        height: 399.96px;
+        left: 863.54px;
+        top: 244px;
+    }
+    
+    .person3 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 99px;
+        bottom: 211px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    .person4 {
+        position: absolute;
+        width: 276.68px;
+        height: 469px;
+        left: 241px;
+        top: 760px;
+    }
+    
+    .person4 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 114px;
+        bottom: 211px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    .person5 {
+        position: absolute;
+        width: 500.21px;
+        height: 360px;
+        left: 550.64px;
+        top: 900px;
+    }
+    
+    .person5 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 5px;
+        bottom: 100px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    .person6 {
+        position: absolute;
+        width: 335.75px;
+        height: 449px;
+        left: 864.69px;
+        top: 760px;
+    }
+    
+    .person6 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 86px;
+        bottom: 195px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    footer {
+        position: relative;
+        text-align: center;
+        top: 1400px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width :700px)
+{
+    *,html,body
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+div
+{
+    font-family: PT serif;
+    font-style: normal;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+h1
+{
+    position: absolute;
+    left: 243px;
+    top: 110px;
+    width: 330px;
+    height: 47px;
+
+    font-family: PT serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+}
+
+img{
+    width: 500px;
+    height: 341px;
+    margin-bottom: 0;
+}
+
+img:hover{
+    opacity: 85%;
+}
+
+.info
+{
+    top: 110px;
+    left: 736px;
+    position: absolute;
+    height: 27px;
+    width: 439px;
+
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.person1
+{
+    
+    display: inline;
+}
+
+.person1 div{
+    
+    color: #000000;
+}
+
+.person2
+{
+  
+}
+
+.person2 div{
+
+}
+
+.person3
+{
+    position: absolute;
+    width: 238px;
+    height: 347px;
+    left: 571px;
+    top: 429px;
+}
+
+.person3 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+
+.person4
+{
+    position: absolute;
+    width: 238px;
+    height: 347px;
+    left: 571px;
+    top: 944px;
+}
+
+.person4 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+.person5
+{
+    position: absolute;
+    width: 238px;
+    height: 341px;
+    left: 901px;
+    top: 330px;
+}
+
+.person5 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 250px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.person6
+{
+    position: absolute;
+    width: 237px;
+    height: 341px;
+    left: 902px;
+    top: 845px;
+}
+
+.person6 div{
+    position: relative;
+    transform: rotate(90deg);
+    left: 130px;
+    bottom: 255px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    top: 1400px;
+    color: gray;
+}
+
+
+
+
+/* Meadia Queries */
+
+@media all
+{
+    p{
+        font-family: Poppins;
+        font-size: 18px;
+    }
+
+    img{
+        margin-bottom: 0px;
+        width: 240px;
+        height: 330px;
+    }
+
+    img:hover
+    {
+        opacity: 85%;
+    }
+    h1 {
+        position: absolute;
+        width: 278px;
+        height: 47px;
+        left: 12px;
+        top: 71px;
+
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.045em;
+
+        color: #000000;
+    }
+    
+    .info {
+        position: absolute;
+        width: 117px;
+        height: 27px;
+        left: 12px;
+        top: 156px;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+    
+    
+    .person1 {
+        position: absolute;
+        width: 242px;
+        height: 426.5px;
+        left: 241px;
+        top: 244.5px;
+        display: inline;
+    }
+    .person1 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 130px;
+        bottom: 244px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    .person2 {
+        
+        position: absolute;
+        width: 305.21px;
+        height: 471px;
+        left: 550.64px;
+        top: 396px;
+    }
+    
+    .person2 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 99px;
+        bottom: 211px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    .person3 {
+        
+        position: absolute;
+        width: 300.81px;
+        height: 399.96px;
+        left: 863.54px;
+        top: 244px;
+    }
+    
+    .person3 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 99px;
+        bottom: 211px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    .person4 {
+        position: absolute;
+        width: 276.68px;
+        height: 469px;
+        left: 241px;
+        top: 760px;
+    }
+    
+    .person4 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 114px;
+        bottom: 211px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    .person5 {
+        position: absolute;
+        width: 500.21px;
+        height: 360px;
+        left: 550.64px;
+        top: 900px;
+    }
+    
+    .person5 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 5px;
+        bottom: 100px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    .person6 {
+        position: absolute;
+        width: 335.75px;
+        height: 449px;
+        left: 864.69px;
+        top: 760px;
+    }
+    
+    .person6 div {
+        position: relative;
+        transform: rotate(90deg);
+        left: 86px;
+        bottom: 195px;
+        font-style: normal;
+         font-weight: normal;
+          font-size: 18px;
+         line-height: 13px;
+        color: #000000;
+    }
+    
+    footer {
+        position: relative;
+        text-align: center;
+        top: 1400px;
+    }
+}
+}
